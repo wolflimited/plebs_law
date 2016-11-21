@@ -1,9 +1,8 @@
 		</main>
         <footer>
-			<script src="<?php echo base_url('js/vendor/modernizr.js'); ?>"></script>
 			<script src="<?php echo base_url('js/jquery.plugin.min.js'); ?>"></script>
 			<script src="<?php echo base_url('js/jquery.maxlength.min.js'); ?>"></script>
-			<script src="<?php echo base_url('js/foundation.min.js'); ?>"></script>
+			<script src="<?php echo base_url('js/vendor/foundation.min.js'); ?>"></script>
             <script src="<?php echo base_url('js/repeater.min.js'); ?>"></script>
             <script src="<?php echo base_url('js/foundation-datepicker.min.js'); ?>"></script>
             <script src="<?php echo base_url('js/uploader-0.5ci.js'); ?>"></script>

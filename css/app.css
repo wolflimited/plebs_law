@@ -432,7 +432,6 @@ label textarea{
     text-align: center;
     width: 100%;
 }
-}
 .uploader ul [class*="column"]+[class*="column"]:last-child
 {
 	float: left;
@@ -608,12 +607,7 @@ label textarea{
 }
 
 .teaser article{
-	float: left; 
-	width: 25%; 
-	padding: 10px 10px 0 0;
 	position: relative;
-	overflow: hidden;
-	box-sizing: border-box;
 }
 .teaser article.addarticle{
 
@@ -633,42 +627,7 @@ label textarea{
 	padding-right: 10px;
 	width: 100%;
 	z-index: 2000;
-	perspective: 1000;
 
-}
-.teaser article .articleinner .articlecontent:hover .flipper,.teaser article .articleinner .articlecontent.hover .flipper{
-	transform: rotateY(180deg);
-}
-.teaser article .articleinner .articlecontent .flipper{
-	transition: 0.6s;
-	transform-style: preserve-3d;
-	position: relative;
-}
-.teaser article .articleinner .articlecontent .flipper .front,.teaser article .articleinner .articlecontent .flipper .back{
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.teaser article .articleinner .articlecontent .flipper .front{
-	z-index: 2;
-	transform: rotateY(0deg);
-	width: 100%;
-}
-.teaser article .articleinner .articlecontent .flipper .front:after{
-	content: "";
-	display: block;
-	padding-bottom: 100%;
-}
-.teaser article .articleinner .articlecontent .flipper .back{
-	transform: rotateY(180deg);
-	background: #a0d3e8;
-	width: 100%;
-}
-.teaser article .articleinner .articlecontent .flipper .back:after{
-	content: "";
-	display: block;
-	padding-bottom: 100%;
 }
 .teaser article:hover{
 /*            opacity: 0.8;*/
@@ -690,20 +649,6 @@ label textarea{
 	float: right;            
 	background: rgba(160, 211, 232, 0.8);
 }
-/*
-.teaser article header .banner{
-	width: 170px;
-	margin: 0;
-	top: -10px;
-	right: -65px; 
-	position: absolute;
-	transform: rotate(50deg);
-	padding: 40px 10px 10px 10px;
-	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
-}
-*/
 .teaser article header .banner.yours{
 	background: rgba(67, 172, 106, 0.8);
 }
